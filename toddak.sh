@@ -1,6 +1,6 @@
-sudo apt-get update
-sudo apt-get install cmake
-sudo apt-get install libbsd-dev
+sudo apt-get -y update
+sudo apt-get -y install cmake
+sudo apt-get -y install libbsd-dev
 git clone https://github.com/AndrewFromMelbourne/raspi2fb.git
 cd raspi2fb
 mkdir build
